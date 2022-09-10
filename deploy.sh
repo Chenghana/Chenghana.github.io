@@ -9,8 +9,7 @@ rm -rf ./docs/.vuepress/dist/*
 yarn build
 
 # 进入生成的文件夹
-cd ./docs/.vuepress/dist/
-
+# cd ./docs/.vuepress/dist/
 
 git init
 git add -A
@@ -18,4 +17,3 @@ git commit -m "更新博客"
 git branch -M main
 
 git push -f git@github.com:Chenghana/Chenghana.github.io.git main
-git push -f git@http://8.142.191.34:/home/git/blog.git
